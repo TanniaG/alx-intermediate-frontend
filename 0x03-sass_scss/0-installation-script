@@ -1,0 +1,12 @@
+cat > 0-installation-script << 'EOF'
+Steps to install SASS:
+
+1. Ensure Node.js is installed on your system
+2. Open terminal/command prompt
+3. Run the command: npm install -g sass@1.77.4
+4. Verify installation by running: sass --version
+
+Alternative installation methods:
+- Using package managers like yarn: yarn global add sass
+- Using Homebrew (Mac): brew install sass/sass/sass
+EOF
